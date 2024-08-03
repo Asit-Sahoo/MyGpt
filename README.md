@@ -1,70 +1,46 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# MYGPT
 
-## Available Scripts
+This project is a clone of ChatGPT, developed using React and the Gemini AI API. It offers a seamless and user-friendly interface for engaging in natural language conversations. Key features include:
 
-In the project directory, you can run:
+Natural Language Processing: Powered by the Gemini AI API, the application can understand and respond to user queries with high accuracy.
+Speech Recognition: Users can interact with the chatbot using voice commands, enhancing the accessibility and convenience of the application.
+Text-to-Speech: The chatbot can convert text responses into speech, providing an interactive and immersive experience.
+User-Friendly Interface: Designed with a focus on simplicity and ease of use, the interface ensures a smooth user experience.
+This project showcases the integration of advanced AI capabilities into a web application, making it an ideal reference for developers interested in natural language processing and AI-driven user interactions.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## API Reference
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Get all items
 
-### `npm test`
+```http
+  GET /api/items
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | AIzaSyCI6gpCDcJGndtpuXC-8q69m9FqVVrn8h0 |
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deployment
 
-### `npm run eject`
+To deploy this project run
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+  npm run bulid
+```
+that deployed in Netlify
+```bash
+https://asit-sahoo-mygpt.netlify.app/
+```
+## Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Speech to Text
+- Text to Speech
+- Getting small relevant 
+- Intractive UI
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
