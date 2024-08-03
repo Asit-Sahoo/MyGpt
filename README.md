@@ -14,9 +14,7 @@ This project showcases the integration of advanced AI capabilities into a web ap
 
 #### Get all items
 
-```http
-  GET /api/items
-```
+
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
